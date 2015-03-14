@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Departments</string>
+	<key>values</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Physics</string>
+			<key>values</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Special Relativity</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 2</string>
+							<key>Grade</key>
+							<string>A+</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 3</string>
+							<key>Grade</key>
+							<string>C-</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 0</string>
+							<key>Grade</key>
+							<string>A</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Astrophysics</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 3</string>
+							<key>Grade</key>
+							<string>C-</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>General Relativity</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 2</string>
+							<key>Grade</key>
+							<string>A+</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Newtonian Mechanics</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 2</string>
+							<key>Grade</key>
+							<string>A+</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 3</string>
+							<key>Grade</key>
+							<string>C-</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 0</string>
+							<key>Grade</key>
+							<string>A</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Mathematics</string>
+			<key>values</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Groups, Rings and Fields</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 2</string>
+							<key>Grade</key>
+							<string>A+</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 3</string>
+							<key>Grade</key>
+							<string>C-</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 0</string>
+							<key>Grade</key>
+							<string>A</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Complex Analysis</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 3</string>
+							<key>Grade</key>
+							<string>C-</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Stochastic Financial Models</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 2</string>
+							<key>Grade</key>
+							<string>A+</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Fluid Dynamics</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 2</string>
+							<key>Grade</key>
+							<string>A+</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 3</string>
+							<key>Grade</key>
+							<string>C-</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 0</string>
+							<key>Grade</key>
+							<string>A</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Chemistry</string>
+			<key>values</key>
+			<array>
+				<dict>
+					<key>name</key>
+					<string>Beginning Inorganic</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 2</string>
+							<key>Grade</key>
+							<string>A+</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 3</string>
+							<key>Grade</key>
+							<string>C-</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 0</string>
+							<key>Grade</key>
+							<string>A</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Computational Chemistry</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 3</string>
+							<key>Grade</key>
+							<string>C-</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Advanced Organic</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 2</string>
+							<key>Grade</key>
+							<string>A+</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>Chemistry 101</string>
+					<key>values</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>Student 1</string>
+							<key>Grade</key>
+							<string>B</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 2</string>
+							<key>Grade</key>
+							<string>A+</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 3</string>
+							<key>Grade</key>
+							<string>C-</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 4</string>
+							<key>Grade</key>
+							<string>D</string>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>Student 0</string>
+							<key>Grade</key>
+							<string>A</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

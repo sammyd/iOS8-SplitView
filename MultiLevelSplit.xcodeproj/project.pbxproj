@@ -14,6 +14,8 @@
 		229D350B1AB3781800A434C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229D350A1AB3781800A434C4 /* Images.xcassets */; };
 		229D350E1AB3781800A434C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229D350C1AB3781800A434C4 /* LaunchScreen.xib */; };
 		229D351A1AB3781800A434C4 /* MultiLevelSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D35191AB3781800A434C4 /* MultiLevelSplitTests.swift */; };
+		229D35251AB3984900A434C4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229D35241AB3984900A434C4 /* Data.swift */; };
+		22FBAA431AB4932C0091BC38 /* HierarchicalData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22FBAA421AB4932C0091BC38 /* HierarchicalData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		229D35131AB3781800A434C4 /* MultiLevelSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiLevelSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229D35181AB3781800A434C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229D35191AB3781800A434C4 /* MultiLevelSplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLevelSplitTests.swift; sourceTree = "<group>"; };
+		229D35241AB3984900A434C4 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		22FBAA421AB4932C0091BC38 /* HierarchicalData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HierarchicalData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		229D34FE1AB3781800A434C4 /* MultiLevelSplit */ = {
 			isa = PBXGroup;
 			children = (
+				229D35231AB3981B00A434C4 /* Data Layer */,
 				229D35011AB3781800A434C4 /* AppDelegate.swift */,
 				229D35031AB3781800A434C4 /* MasterViewController.swift */,
 				229D35051AB3781800A434C4 /* DetailViewController.swift */,
@@ -113,6 +118,15 @@
 				229D35181AB3781800A434C4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		229D35231AB3981B00A434C4 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				229D35241AB3984900A434C4 /* Data.swift */,
+				22FBAA421AB4932C0091BC38 /* HierarchicalData.plist */,
+			);
+			name = "Data Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				229D35091AB3781800A434C4 /* Main.storyboard in Resources */,
+				22FBAA431AB4932C0091BC38 /* HierarchicalData.plist in Resources */,
 				229D350E1AB3781800A434C4 /* LaunchScreen.xib in Resources */,
 				229D350B1AB3781800A434C4 /* Images.xcassets in Resources */,
 			);
@@ -218,6 +233,7 @@
 				229D35061AB3781800A434C4 /* DetailViewController.swift in Sources */,
 				229D35041AB3781800A434C4 /* MasterViewController.swift in Sources */,
 				229D35021AB3781800A434C4 /* AppDelegate.swift in Sources */,
+				229D35251AB3984900A434C4 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +431,7 @@
 				229D351F1AB3781800A434C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		229D35201AB3781800A434C4 /* Build configuration list for PBXNativeTarget "MultiLevelSplitTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +440,7 @@
 				229D35221AB3781800A434C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
