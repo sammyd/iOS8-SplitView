@@ -34,10 +34,21 @@ enum Hierarchy<T: Printable> {
 extension Hierarchy: Printable {
   var description: String {
     switch self {
-    case let Leaf(val):
+    case let .Leaf(val):
       return val.unbox.description
-    case let Node(val, children):
-      return "\(val) => \(children)"
+    case let .Node(name, _):
+      return name
+    }
+  }
+}
+
+extension Hierarchy: DebugPrintable {
+  var debugDescription: String {
+    switch self {
+    case let .Leaf(val):
+      return val.unbox.description
+    case let .Node(name, children):
+      return "\(name) => \(children)"
     }
   }
 }
@@ -77,6 +88,12 @@ struct Student {
 
 extension Student: Printable {
   var description: String {
+    return name
+  }
+}
+
+extension Student: DebugPrintable {
+  var debugDescription: String {
     return "\(name): \(grade)"
   }
 }

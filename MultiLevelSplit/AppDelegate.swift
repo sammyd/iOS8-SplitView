@@ -23,34 +23,30 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
   var window: UIWindow?
+  let studentData = loadStudentDataModel()
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    
-    let data = loadStudentDataModel()
-    println(data)
-    
     
     // Override point for customization after application launch.
     let splitViewController = self.window!.rootViewController as! UISplitViewController
     let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
-    splitViewController.delegate = self
-    return true
-  }
-
-  // MARK: - Split view
-
-  func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController:UIViewController!, ontoPrimaryViewController primaryViewController:UIViewController!) -> Bool {
-      if let secondaryAsNavController = secondaryViewController as? UINavigationController {
-          if let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController {
-              if topAsDetailController.detailItem == nil {
-                  // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
-                  return true
-              }
-          }
+    
+    
+    // Faff around to get hold of the master VC
+    let masterContainer = splitViewController.viewControllers.first! as! UINavigationController
+    if let masterVC = masterContainer.topViewController as? MasterViewController {
+      switch studentData! {
+      case let .Node(name, children):
+        masterVC.children = children
+        masterVC.title = name
+      default:
+        println("error")
       }
-      return false
+    }
+
+    return true
   }
 
 }
