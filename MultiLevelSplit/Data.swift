@@ -45,10 +45,10 @@ extension Hierarchy: Printable {
 extension Hierarchy {
   static func createFromDict(leafFromDict: NSDictionary -> T)(dict: NSDictionary) -> Hierarchy<T> {
     if let values = dict["values"] as? [NSDictionary],
-    let name = dict["name"] as? String {
-      return Hierarchy.Node(name, values.map(createFromDict(leafFromDict)))
+      let name = dict["name"] as? String {
+        return .Node(name, values.map(createFromDict(leafFromDict)))
     } else {
-      return Hierarchy.Leaf(Box(leafFromDict(dict)))
+      return .Leaf(Box(leafFromDict(dict)))
     }
   }
   
