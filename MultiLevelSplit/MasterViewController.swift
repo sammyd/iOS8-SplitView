@@ -38,7 +38,7 @@ class MasterViewController: UITableViewController {
       case let .Leaf(leaf):
         detailVC.student = leaf.unbox
       case .Node:
-        println("no-op1")
+        break
       }
     }
   }
@@ -79,7 +79,7 @@ class MasterViewController: UITableViewController {
       newVC.title = name
       showViewController(newVC, sender: self)
     default:
-      println("no-op")
+      break
     }
   }
 }
